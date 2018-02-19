@@ -24,4 +24,3 @@ var appendKitten = (name) => {
   var kittens = kittens.push();
   return kittens;
 }
-

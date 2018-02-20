@@ -31,3 +31,15 @@ var prependKitten = (name) => {
   var kitten = [name,...kittens];
   return kitten;
 }
+
+var removeLastKitten = () => {
+
+  var kitten = kittens.slice(0, kittens.length - 1);
+  return kitten;
+}
+
+var removeFirstKitten = () => {
+
+  var kitten = kittens.slice(1)
+  return kitten;
+}

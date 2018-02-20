@@ -25,3 +25,9 @@ var appendKitten = (name) => {
   var kitten = [...kittens, name];
   return kitten;
 }
+
+var prependKitten = (name) => {
+
+  var kitten = [name,...kittens];
+  return kitten;
+}
